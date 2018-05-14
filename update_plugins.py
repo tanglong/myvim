@@ -18,6 +18,7 @@ from os import path
 PLUGINS = """
 vim-go https://github.com/fatih/vim-go
 nerdtree https://github.com/scrooloose/nerdtree
+ctrlp.vim https://github.com/kien/ctrlp.vim 
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
