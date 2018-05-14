@@ -13,11 +13,11 @@ let g:go_highlight_build_constraints = 1
 map <C-n> :NERDTreeToggle<CR>
 
 
- """"""""""""""""""""""""""""""
- " => Status line
- """"""""""""""""""""""""""""""
- " Always show the status line
- set laststatus=2
+""""""""""""""""""""""""""""""
+" => Status line
+""""""""""""""""""""""""""""""
+" Always show the status line
+set laststatus=2
  
- " Format the status line
- set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
+" Format the status line
+set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
