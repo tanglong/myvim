@@ -20,6 +20,7 @@ vim-go https://github.com/fatih/vim-go
 nerdtree https://github.com/scrooloose/nerdtree
 ctrlp.vim https://github.com/kien/ctrlp.vim
 vim-autoformat https://github.com/Chiel92/vim-autoformat
+vim-colors-solarized https://github.com/altercation/vim-colors-solarized
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
