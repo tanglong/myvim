@@ -9,7 +9,7 @@ source ~/.vim_runtime/vimrcs/plugins_config.vim
 ' > ~/.vimrc
 
 echo 'export PATH=$PATH:~/.vim_runtime/bin
-' > ~/.bashrc
+' >> ~/.bashrc
 source ~/.bashrc
 
 echo "Installed the Vim configuration successfully!"
