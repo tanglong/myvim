@@ -11,7 +11,7 @@ let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 
 map <C-n> :NERDTreeToggle<CR>
-
+nmap <F8> :TagbarToggle<CR>
 
 """"""""""""""""""""""""""""""
 " => Status line
