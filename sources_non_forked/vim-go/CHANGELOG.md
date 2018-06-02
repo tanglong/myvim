@@ -2,6 +2,13 @@
 
 FEATURES:
 
+* Two new text objects has been added: 
+  * `ic` (inner comment) selects the content of the comment, excluding the start/end markers (i.e: `//`, `/*`)
+  * `ac` (a comment) selects the content of the whole commment block, including markers
+  To use this new feature, make sure you use use the latest version of
+  [motion](https://github.com/fatih/motion). You can update the tool from Vim
+  via `:GoUpdateBinaries`
+  [[GH-1779]](https://github.com/fatih/vim-go/pull/1779)
 * Add `:GoPointsTo` to show all variables to which the pointer under the cursor
   may point to.
   [[GH-1751]](https://github.com/fatih/vim-go/pull/1751)
@@ -16,6 +23,11 @@ IMPROVEMENTS:
 * Some command which operate on files (rather than Vim buffers) will now show a
   warning if there are unsaved buffers, similar to Vim's `:make`.
   [[GH-1754]](https://github.com/fatih/vim-go/pull/1754)
+* Don't return an error from `:GoGuru` functions when the import path is
+  unknown and scope is unneeded.
+  [[GH-1826]](https://github.com/fatih/vim-go/pull/1826)
+* Performance improvements for the `go.vim` syntax file.
+  [[GH-1799]](https://github.com/fatih/vim-go/pull/1799)
 
 BUG FIXES:
 
@@ -34,15 +46,10 @@ BUG FIXES:
 * Fix gocode option string values that would cause gocode settings not to set
   correctly
   [[GH-1818]](https://github.com/fatih/vim-go/pull/1818)
+* Fix Neovim handling of guru output.
+  [[GH-1846]](https://github.com/fatih/vim-go/pull/1846)
 
 BACKWARDS INCOMPATIBILITIES:
-
-* This is not a breaking changes but we list it in case there are some issues
-  that come up after upgrading to the new release with autocompletion. We no
-  longer rely on using `nsf/gocode` and switched to the new fork
-  `mdempsky/gocode`. Please let us know if you see any `gocode`
-  (autocompletion) related issues after upgrading.
-  [[GH-1814]](https://github.com/fatih/vim-go/pull/1814)
 
 ## 1.17 - (March 27, 2018)
 
