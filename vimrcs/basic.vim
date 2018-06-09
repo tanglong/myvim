@@ -1,6 +1,8 @@
 syntax enable  
 filetype plugin on  
 
+set backspace=eol,start,indent
+
 let g:go_disable_autoinstall = 0 
 
 " Highlight
