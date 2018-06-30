@@ -1,4 +1,5 @@
-syntax enable  
+syntax enable 
+runtime macros/matchit.vim
 filetype plugin on  
 
 set backspace=eol,start,indent
