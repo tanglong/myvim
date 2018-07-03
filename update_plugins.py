@@ -22,6 +22,7 @@ ctrlp.vim https://github.com/kien/ctrlp.vim
 vim-autoformat https://github.com/Chiel92/vim-autoformat
 vim-colors-solarized https://github.com/altercation/vim-colors-solarized
 tagbar https://github.com/majutsushi/tagbar
+vim-multiple-cursors https://github.com/terryma/vim-multiple-cursors
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
