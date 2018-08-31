@@ -4,6 +4,13 @@ filetype plugin on
 
 set backspace=eol,start,indent
 
+" show existing tab with 4 spaces width
+set tabstop=4
+" " when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" " On pressing tab, insert 4 spaces
+set expandtab
+
 let g:go_disable_autoinstall = 0 
 
 " Highlight
