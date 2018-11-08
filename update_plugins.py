@@ -23,6 +23,7 @@ vim-autoformat https://github.com/Chiel92/vim-autoformat
 vim-colors-solarized https://github.com/altercation/vim-colors-solarized
 tagbar https://github.com/majutsushi/tagbar
 vim-multiple-cursors https://github.com/terryma/vim-multiple-cursors
+ack.vim https://github.com/mileszs/ack.vim
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
