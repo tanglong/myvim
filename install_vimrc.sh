@@ -9,6 +9,7 @@ source ~/.vim_runtime/vimrcs/plugins_config.vim
 ' > ~/.vimrc
 
 echo 'export PATH=$PATH:~/.vim_runtime/bin
+export TERM=xterm-256color
 ' >> ~/.bashrc
 source ~/.bashrc
 
