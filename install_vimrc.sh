@@ -10,6 +10,15 @@ source ~/.vim_runtime/vimrcs/plugins_config.vim
 
 echo 'export PATH=$PATH:~/.vim_runtime/bin
 export TERM=xterm-256color
+tx() {
+  if ! tmux has-session -t work 2> /dev/null; then
+    tmux new -s work -d;
+    # tmux splitw -h -p 40 -t work;
+    # tmux select-p -t 1;
+  fi
+  tmux attach -t work;
+}
+
 ' >> ~/.bashrc
 source ~/.bashrc
 
