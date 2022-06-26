@@ -31,6 +31,7 @@ set laststatus=2
  
 " Format the status line
 set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
+set statusline+=%1*\ %=\ row:%l/%L\ (%03p%%)
 
 " Returns true if paste mode is enabled
 function! HasPaste()
